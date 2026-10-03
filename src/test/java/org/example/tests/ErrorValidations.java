@@ -1,6 +1,5 @@
 package org.example.tests;
 import com.aventstack.extentreports.ExtentReports;
-import com.aventstack.extentreports.reporter.ExtentReporter;
 import com.aventstack.extentreports.reporter.ExtentSparkReporter;
 import org.example.Listners.Retry;
 import org.example.TestComponents.BaseTest;
@@ -8,7 +7,6 @@ import org.example.pageobject.CartPage;
 import org.example.pageobject.OrderPage;
 import org.example.pageobject.ProductCatalogue;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.FindBy;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 

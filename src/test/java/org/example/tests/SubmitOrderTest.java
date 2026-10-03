@@ -27,6 +27,8 @@ public class SubmitOrderTest  extends BaseTest {
     // Not the main method
     // to attach the data to the method we use simply the dataProvider="getData"
 
+
+
     @Test(groups = {"Purchase"},dataProvider = "getData")
     // catch the data
     public void Loginapplication (HashMap<String,String> input) throws InterruptedException, IOException {
